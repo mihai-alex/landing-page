@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-logo-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo-links .links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-section .content {
+    display: flex;
+    align-items: center;
+    max-width: 850px;
+}
+
+.quote-section {
+    display: flex;
+    max-width: 850px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-section .author {
+    align-self: flex-end;
+}
+
+.signup-section {
+    display: flex;
+}
