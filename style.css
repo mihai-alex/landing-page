@@ -90,7 +90,7 @@ header {
     gap: 16px;
 }
 
-header a,
+a,
 a:focus,
 a:active {
     text-decoration: none;
@@ -98,7 +98,7 @@ a:active {
     font-size: 18px;
 }
 
-header a:hover {
+a:hover {
     color: lightskyblue;
 }
 
