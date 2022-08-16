@@ -27,15 +27,13 @@ button:hover {
 }
 
 header {
+    width: 100%;
     color: white;
     background-color: #1F2937;
     margin: 0;
-    padding-left: 48px;
-    padding-right: 48px;
     display: flex;
     justify-content: space-around;
     align-content: space-between;
-    width: 1285px;
 }
 
 .header-logo-content {
@@ -156,11 +154,15 @@ header img {
 }
 
 .quote-section {
+    width: 100%;
+    background-color: #E5E7EB;
+}
+
+.quote-section .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #E5E7EB;
-    padding: 104px 275px;
+    padding: 100px 350px;
 }
 
 .quote-section .quote {
@@ -211,6 +213,7 @@ header img {
 }
 
 footer {
+    width: 100%;
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -218,5 +221,5 @@ footer {
     color: gainsboro;
     background-color: #1F2937;
     margin: 0;
-    padding: 24px 575px
+    padding: 24px 0px;
 }
